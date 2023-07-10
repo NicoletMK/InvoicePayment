@@ -1,0 +1,45 @@
+{
+    "name": "invoice-payment-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "@chakra-ui/icons": "^2.0.8",
+        "@chakra-ui/react": "^2.2.6",
+        "@emotion/cache": "^11.11.0",
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@mantine/core": "^6.0.15",
+        "@mantine/form": "^6.0.15",
+        "@mantine/hooks": "^6.0.15",
+        "@mantine/next": "^6.0.15",
+        "@mui/material": "^5.13.4",
+        "@tabler/icons-react": "^2.23.0",
+        "antd": "^4.17.4",
+        "framer-motion": "^7.1.0",
+        "next": "^13.2.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.2.1",
+        "sas": "^3.0.4",
+        "sass": "^1.63.6",
+        "typescript": "^4.5.4"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.42",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "autoprefixer": "^10.4.8",
+        "eslint": "8.17.0",
+        "eslint-config-next": "13.2.4",
+        "postcss": "^8.4.16",
+        "tailwindcss": "^3.1.8",
+        "typescript": "4.7.3"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export -o build/",
+        "start": "next start",
+        "lint": "next lint"
+    }
+}
